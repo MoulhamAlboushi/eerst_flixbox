@@ -20,6 +20,7 @@
 
 .introdaction {
   height: 700px;
+  border: 1px solid black;
   text-align: center;
   color: #345;
   background: url("/1.jpg") no-repeat center center/cover;
