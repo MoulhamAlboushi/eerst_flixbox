@@ -1,17 +1,26 @@
 .navheader {
-  border: 1px solid black;
+  border: 2px solid black;
   width: 100%;
-  margin: 20px;
-  padding: 10px;
-  /* background: #111; */
+  margin: 0;
+  padding: 0;
   display: flex;
+  border: 1px solid red;
+  /* flex-direction: row; */
+}
+.logo {
+  border: 1px solid rgb(103, 103, 70);
+}
+.headernav {
+  display: flex;
+  border: green solid 1px;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
 }
 
-.navheader li {
-  margin-inline: auto;
-
-  /* display: flex; */
-}
-.box {
-  color: wheat;
+.introdaction {
+  height: 700px;
+  text-align: center;
+  color: #345;
+  background: url("/1.jpg") no-repeat center center/cover;
 }
