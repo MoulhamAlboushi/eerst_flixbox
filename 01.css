@@ -26,8 +26,28 @@
   text-align: center;
   text-decoration: none;
 }
-.photo_background {
+/* .photo_background {
   border: dashed gold 2px;
   display: fix;
-  /* flex-direction: row; */
+  flex-direction: row; */
+
+  p{
+     50px;
+}
+
+.photo_background {
+  display: flex;
+  flex-direction: warp;
+  flex-wrap: warp;
+  padding: 0;
+  margin: 0;
+}
+.par_pho1 {
+  /* width: 350px; */
+   
+  padding: 0;
+  margin: 0px 2px 2px 0px;
+  color: white;
+  text-align: center; */
+  /* background: url("1.jpg") no-repeat center center/cover; */
 }
